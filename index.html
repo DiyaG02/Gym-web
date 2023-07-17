@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fitness Website</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <form class="bmi-form">
+            <div class="form-group">
+                <label for="weight">Weight (kg):</label>
+                <input type="number" id="weight" name="weight" placeholder="Enter your weight">
+            </div>
+            <div class="form-group">
+                <label for="height">Height (cm):</label>
+                <input type="number" id="height" name="height" required placeholder="Enter your height">
+            </div>
+            <div id="calculate"></div>
+            <button type="button" class="btn btn-light">Calculate BMI</button>
+
+                
+        </div>
+        </form>
+       <div id="result"></div>
+           
+        
+    </div>
+
+
+    <section id="home" class="hero">
+        <img class="background-img" src="pexels-nathan-cowley-1153369.jpg" alt="">
+        <div class="hero-content">
+            <h1>Welcome to FitClub</h1>
+            <p class="para">Your one-stop destination for fitness information and resources.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="section-heading">
+            <h2>About Us</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-content">
+            <p class="para">Welcome to FitClub! Your go-to platform for all things fitness. We are dedicated to helping you achieve your health and wellness goals through expert guidance, useful resources, and a supportive community.</p>
+            <p class="para">Our team of experienced fitness professionals is passionate about sharing their knowledge and empowering individuals to lead a healthy lifestyle. Whether you're a beginner or an advanced fitness enthusiast, we have something for everyone.</p>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews-section">
+        <div class="section-heading">
+            <h2>Reviews</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="review-card">
+            <div class="user-image">
+                <img src="./images/download.jpg" alt="User 1">
+            </div>
+            <h3>Milie</h3>
+            <p>"The trainers have been so friendly... They guided me like real friends and I am healthy as well as wealthy and happier now.."</p>
+        </div>
+        <div class="review-card">
+            <div class="user-image">
+                <img src="./images/download (1).jpg" alt="User 2">
+            </div>
+            <h3>David</h3>
+            <p>"Joining FitClub for fitness have been the best decision in my life. I literally lost max of my weight and got my dream figure! Thank You FitClub!."</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="section-heading">
+            <h2>Contact Us</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="contact-content">
+            <p>Have a question or feedback? Reach out to us using the contact information below:</p>
+            <ul>
+                <li>Email: info@fitnesswebsite.com</li>
+                <li>Phone: 123-456-7890</li>
+                <li>Address: 123 Fitness Street, City, State, ZIP</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Fitness Website. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

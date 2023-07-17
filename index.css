@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000000;
+}
+
+header {
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    z-index: 100;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 5px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-image: url('images/hero-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    position: relative;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.para
+{
+    color:#fff
+}
+.hero p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#weight, #height{
+    border: 2px solid black;
+    opacity: 0.7;
+     border-radius: 5px;
+     padding: 5px;
+     
+}
+/* #result {
+    background-color: #f3eeee;
+    color: #1d0101;
+    width: 166px;
+    margin-left: 199px;
+} */
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    width: auto;
+    margin: 5px 5px;
+    padding: 10px;
+    opacity: 0.7;
+}
+
+
+.about-section,
+.reviews-section,
+.contact-section {
+    padding: 100px 0;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-heading h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.underline {
+    width: 100px;
+    height: 4px;
+    background-color: #333;
+    margin: 0 auto;
+}
+
+.about-content,
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.review-card {
+    max-width: 400px;
+    margin: 0 auto 40px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-image {
+    text-align: center;
+}
+
+.user-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.review-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.review-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+.contact-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.contact-content li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Page-specific styles */
+
+h2 {
+    margin-top: 0;
+}
+.background-img
+{
+    width: 100%;
+    /* background-color: #000000; */
+    opacity: 0.4;
+    position: relative;
+    top: -110px;
+}
+.container
+{
+    position: absolute;
+    left: 20%;
+    top:200px;
+    display: inline-block;
+    z-index: 5;
+}
+.container h1
+{
+    color: white;
+    font-size: 50px;
+}
+.bmi-form
+{
+
+}
+.form-group
+{
+    color: white;
+    font-size: 30px;
+    padding: 15px 5px;
+}
+.submit
+{
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+
+
